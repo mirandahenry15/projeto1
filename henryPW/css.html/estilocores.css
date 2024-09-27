@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(106, 106, 106);
+}
+
+header { 
+    text-align: right;
+   background-color: black;
+   color: antiquewhite;
+}
+
+nav {
+    height: 80px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+    .container, .conteiner2{
+        display: flex;
+        margin: 5px;
+        div.p1,div.p2,div.p4,div.p5 {
+            margin: 5px;
+        }
+    }
+
+    .p1 {
+
+        width: 60%;
+        height: 500px;
+        color: rgb(255, 255, 255);
+        border-top: salid bisque;
+    }
+
+     .p2 {
+        
+        width: 100%;
+        height: 500px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+      .p3 {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 300px;
+        margin: 5px;
+      }
+
+       .p4 {
+        background-color: rgb(255, 245, 245);
+        width: 0%;
+        height: 0px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+       }
+     
+       .p5 {
+        background-color: rgb(255, 255, 255);
+        width: 70%;
+        height: 300px;
+        display: flex;
+        justify-self: center;
+    }
+
+        h1.h2 {
+            padding: 10%;
+        }
+
+        footer {
+            color: rgb(255, 0, 0);
+            font-size: 9px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            bottom: 0px;
+        }
+
+        li{
+            display: inline-block;
+            padding: ;
+            border-right: rgb(255, 255, 255) solid 0.px ;
+        }
+
+        ul, nav{
+            text-align: right;
+        }
+
+
