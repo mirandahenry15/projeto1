@@ -1,0 +1,38 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FDF5E6;
+}
+
+.container {
+    background-color: #FDF5E6;
+    margin: 30px;
+    height: 400px;
+    border: 3px solid #f6655e;
+    display: flex;
+    border-radius: 20px;
+}
+
+.img {
+    margin: 15px;
+}
+
+img {
+    border: 3px solid #f6655e;
+    border-radius: 20px;
+    height: 225px;
+    width: 225px;
+}
+
+.info {
+    margin: 15px;
+}
+
+.sub1, .sub2 {
+    margin: 10px 0;
+}
+
+.p1, .p2, .p3 {
+    margin: 5px 0;
+}

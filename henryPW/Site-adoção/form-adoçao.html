@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de adoção</title>
+    <link rel="stylesheet" href="form-adocao.css">
+</head>
+<body>
+    <form>
+        <h1>Se cadastre aqui</h1>
+            <h2>Informações Pessoais</h2>
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            <br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(99) 9999-9999" required>
+            <br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <h2>Sobre o ambiente familiar</h2>
+            <label>Você mora em casa ou apartamento?</label>
+            <label for="casa">Casa</label>
+            <input type="radio" id="casa" name="tipo_residencia" value="casa" required>           
+            <label for="apartamento">Apartamento</label>
+            <input type="radio" id="apartamento" name="tipo_residencia" value="apartamento" required>
+            <br>
+
+            <label>Você tem quintal ou jardim?</label>
+            <label for="sim">Sim</label>
+            <input type="radio" id="sim" name="quintal" value="sim" required>
+            <label for="nao">Não</label> 
+            <input type="radio" id="nao" name="quintal" value="nao" required>
+            <br>
+
+            <label for="pessoas">Quantas pessoas moram na sua casa? Há crianças?</label>
+            <input type="text" id="pessoas" name="pessoas" required>
+            <br>
+
+            <label>Algum morador tem alergia a animais?</label>
+            <label for="alergia_sim">Sim</label>
+            <input type="radio" id="alergia_sim" name="alergia" value="sim" required>
+            <label for="alergia_nao">Não</label>
+            <input type="radio" id="alergia_nao" name="alergia" value="nao" required>
+            <br>
+
+            <h2>Comprometimento e Cuidados</h2>
+            <label for="custos">Você está preparado para os custos de cuidar de um animal (alimentação, cuidados veterinários, vacinas, etc.)?</label>
+            <input type="text" id="custos" name="custos" required>
+            <br>
+
+            <label for="tempo_sozinho">Quanto tempo o animal ficará sozinho durante o dia?</label>
+            <input type="text" id="tempo_sozinho" name="tempo_sozinho" required>
+            <br>
+
+            <label for="passeios">Você pretende levar o animal para passear regularmente (no caso de cães)?</label>
+            <input type="text" id="passeios" name="passeios" required>
+            <br>
+
+            <label for="destino_animal">Em caso de mudança de cidade ou país, o que você faria com o animal?</label>
+            <input type="text" id="destino_animal" name="destino_animal" required>
+            <br>
+
+            <label for="cuidados_ferias">Quem cuidaria do animal durante férias ou ausências?</label>
+            <input type="text" id="cuidados_ferias" name="cuidados_ferias" required>
+            <br>
+
+            <h2>Consentimento e Responsabilidade</h2>
+            <label for="visita">Você está disposto a passar por uma visita domiciliar antes da adoção ser aprovada?</label>
+            <input type="text" id="visita" name="visita" required>
+            <br>
+
+            <label for="responsabilidade">Você está ciente de que o animal pode precisar de cuidados por muitos anos?</label>
+            <input type="text" id="responsabilidade" name="responsabilidade" required>
+            <br>
+
+            <label for="esterizacao">Você se compromete a esterilizar o animal?</label>
+            <input type="text" id="esterizacao" name="esterizacao" required>
+            <br>
+
+            <button><a href="questionarioEnviado.html">Enviar formulario</a> </button>
+        </form>
+</body>
+</html>
